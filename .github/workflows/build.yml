@@ -37,11 +37,8 @@ jobs:
       working-directory: androidx-main
       run: |
         pushd frameworks/support
-        git fetch aosp b419e7dc3b7ea6685f43ef00c0ed8bc8f814938c
+        git fetch aosp 2c96666b2344cae1cd643af2eba5371be4b576d6
         git checkout FETCH_HEAD
-        git fetch aosp 420b7f626cd47bf8e85d2a7c9111bb0dd0ac8c85 && git cherry-pick FETCH_HEAD # Start using JDK 17
-        git fetch aosp c3c23ea1226d4c1236d73238dd5768dd3af98954 && git cherry-pick FETCH_HEAD # Remove legacy dokka tasks from androidx
-        git fetch https://android.googlesource.com/platform/frameworks/support refs/changes/99/2280599/1 && git cherry-pick FETCH_HEAD~6..FETCH_HEAD
         git am $GITHUB_WORKSPACE/patches/0001-Add-hacky-way-for-us-to-make-certain-camera-IDs-back.patch
         popd
 
