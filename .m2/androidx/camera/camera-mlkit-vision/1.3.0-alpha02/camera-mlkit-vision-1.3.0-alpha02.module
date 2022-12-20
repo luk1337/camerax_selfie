@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.camera",
+    "module": "camera-mlkit-vision",
+    "version": "1.3.0-alpha02",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.3.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.3.0-alpha02"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "vision-interfaces",
+          "version": {
+            "requires": "16.0.0",
+            "prefers": "16.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera-mlkit-vision-1.3.0-alpha02.aar",
+          "url": "camera-mlkit-vision-1.3.0-alpha02.aar",
+          "size": 7828,
+          "sha512": "8249c7ac0d6ab756747defd6da6ae5e7e9522042ab8376cadbd5b949ca004d6b778e2d3db84ac36d975b0808026b002a3be2ea927a93254f50f42a6b8e51d2f6",
+          "sha256": "f25a26d70111d504d8e5b19e714420df22480d6c06c6fb33f6792eb2d80ff22b",
+          "sha1": "8b7ec44ee1f50bb3b841dcedcc6803c9ece16c53",
+          "md5": "afb888b6680b56d868212bd54e7ba1b4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.3.0-alpha02"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.3.0-alpha02"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "vision-interfaces",
+          "version": {
+            "requires": "16.0.0",
+            "prefers": "16.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera-mlkit-vision-1.3.0-alpha02.aar",
+          "url": "camera-mlkit-vision-1.3.0-alpha02.aar",
+          "size": 7828,
+          "sha512": "8249c7ac0d6ab756747defd6da6ae5e7e9522042ab8376cadbd5b949ca004d6b778e2d3db84ac36d975b0808026b002a3be2ea927a93254f50f42a6b8e51d2f6",
+          "sha256": "f25a26d70111d504d8e5b19e714420df22480d6c06c6fb33f6792eb2d80ff22b",
+          "sha1": "8b7ec44ee1f50bb3b841dcedcc6803c9ece16c53",
+          "md5": "afb888b6680b56d868212bd54e7ba1b4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "camera-mlkit-vision-1.3.0-alpha02-sources.jar",
+          "url": "camera-mlkit-vision-1.3.0-alpha02-sources.jar",
+          "size": 5446,
+          "sha512": "762be0bafb03ad603ee3f7805066607c9b0963244e2219428161a5dde8b1c21b3f13c03366b90a21e9c65efc55cb907b08c27e18e4b378064be6caedd6b5aca3",
+          "sha256": "49f229de7c0b08d986a578be20fa9f3b7cb03e962f3f51df6753fe3438e0267f",
+          "sha1": "560ccf6754041ba5552faa0aaddef5606bf73f78",
+          "md5": "7061705ce4744fd3572827d970492e6b"
+        }
+      ]
+    }
+  ]
+}
